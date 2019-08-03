@@ -1,0 +1,34 @@
+package:
+  name: prefersim
+  version: "1"
+
+build:
+  number: 1
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+
+  host:
+    - gsl
+
+  run:
+    - gsl
+
+source:
+  url: https://github.com/LohmuellerLab/PReFerSim/archive/master.zip
+  md5: 5fc8b921088a986335a6623714ae7af0
+
+test:
+  commands:
+    - prefersim
+
+about:
+  home:  'https://github.com/LohmuellerLab/PReFerSim'
+  license: Unknown
+  summary: Fast simulation of demography and selection under the Poisson Random Field model
+
+extra:
+  identifiers:
+    - doi:https://doi.org/10.1093/bioinformatics/btw478
+
