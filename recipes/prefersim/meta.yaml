@@ -1,6 +1,6 @@
 package:
   name: prefersim
-  version: "1"
+  version: "1.0"
 
 build:
   number: 1
@@ -16,8 +16,8 @@ requirements:
     - gsl
 
 source:
-  url: https://github.com/LohmuellerLab/PReFerSim/archive/master.zip
-  md5: 5fc8b921088a986335a6623714ae7af0
+  url: https://github.com/LohmuellerLab/PReFerSim/releases/download/1.0/prefersimv1.0.tar.gz
+  md5: 2dff98c4d67cd9a5c46e9f503b41529e
 
 test:
   commands:
