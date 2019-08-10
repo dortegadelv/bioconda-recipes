@@ -1,10 +1,10 @@
 package:
   name: pymzml
-  version: "2.2.5"
+  version: "2.4.1"
 
 source:
-  url: https://files.pythonhosted.org/packages/31/78/ea84fc21a9e5715c150d613527db42fcd785369323afd19727587ee11391/pymzml-2.2.5.tar.gz
-  sha256: f637555eba883f11ad6b473526aa4c4b454560b5e940bcfb27c26bc4c73340ae
+  url: https://files.pythonhosted.org/packages/c0/cc/378ec255f931fc591ef8390976c7464c0c6ee2a8b9bc96c4b7fefdc7ff2e/pymzml-2.4.1.tar.gz
+  sha256: 5a70945ba918a4846cb462adff9d1dd548d8fd67d01c8d9ddf20bf0044afe080
 
 build:
   number: 0

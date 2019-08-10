@@ -1,5 +1,5 @@
 {% set name = "dcplib" %}
-{% set version = "2.0.3" %}
+{% set version = "3.1.0" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3ad765d37fe2dec7566bbd22daf923ff14d0ce791b58303b36e40e9a058e5db9
+  sha256: e6d9d7d20a84db311a19b8135b85e2f1822d0ceb53b39433f22b8801616a4851
 
 build:
   number: 0
